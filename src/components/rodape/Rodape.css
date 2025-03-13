@@ -1,0 +1,56 @@
+.divRodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(173, 216, 230);
+    background: linear-gradient(rgba(201, 201, 204, 0.4), rgba(201, 201, 204, 0.9)), url('../../assets/banner4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #000;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .divRodape {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .logoRodape {
+        max-width: 200px;
+    }
+
+    .tituloRodape {
+        font-size: 16px;
+    }
+
+    .iconesRedesSociais {
+        gap: 10px;
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    .divRodape {
+        padding: 20px;
+    }
+
+    .logoRodape {
+        max-width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .tituloRodape {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .iconesRedesSociais {
+        gap: 8px;
+    }
+}

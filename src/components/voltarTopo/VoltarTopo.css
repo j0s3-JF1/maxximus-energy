@@ -1,0 +1,35 @@
+.fixedButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #ffab11;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    opacity: 0;  /* Inicialmente invisível */
+    pointer-events: none;  /* Impede a interação quando o botão está invisível */
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Espaçamento entre o ícone e o texto */
+}
+
+.fixedButton.show {
+    opacity: 1;  /* Torna o botão visível quando a classe 'show' é adicionada */
+    pointer-events: auto;  /* Habilita a interação quando o botão está visível */
+}
+
+.fixedButton:hover {
+    background-color: #45a049;
+}
+
+.fixedButton svg {
+    transition: transform 0.3s;
+}
+
+.fixedButton:hover svg {
+    transform: translateY(-3px);  /* Adiciona um efeito sutil de elevação ao ícone */
+}

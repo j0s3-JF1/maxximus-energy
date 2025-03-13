@@ -1,0 +1,35 @@
+.boxLarger {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: flex-start; /* Mantém os itens alinhados no topo */
+    background-color: rgba(12, 15, 39);
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    gap: 10px; /* Espaçamento entre os elementos */
+    text-align: center; /* Garante que todo o texto fique centralizado */
+}
+
+.boxLarger svg {
+    margin-bottom: 5px; /* Espaço abaixo do ícone */
+}
+
+.boxLarger h1 {
+    font-size: 15pt;
+    color: #fff;
+}
+
+.boxLarger label {
+    color: #fff;
+    text-align: center;
+    font-size: 12pt;
+    width: 100%; /* Garante que o texto ocupe a largura total disponível */
+}
+
+.boxLarger hr{
+    width: 100%;
+    background-color: #fff;
+    height: 2px;
+}

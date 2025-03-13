@@ -1,0 +1,89 @@
+.divHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+}
+
+.divHeader img{
+    width: 150px;
+}
+
+
+.headerOptions {
+    display: flex;
+    gap: 50px;
+}
+
+.headerOptions label {
+    font-weight: bold;
+}
+
+.headerOptions label {
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headerOptions label::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.headerOptions label:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+/* Estilo para o menu hambúrguer */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+}
+
+.hamburger .line {
+    background-color: #333;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+/* Responsividade: Menu hambúrguer */
+@media (max-width: 1020px) {
+    .headerOptions {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 150px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .headerOptions.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

@@ -1,0 +1,8 @@
+.itensLaudo{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    gap: 10px;
+    flex-direction: row;
+    color: #fff;
+}

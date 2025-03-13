@@ -1,0 +1,1061 @@
+.divBanner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100vw;
+    height: 90vh;
+    padding: 50px;
+    background-color: rgb(173, 216, 230);
+    background: linear-gradient(rgba(12, 15, 39, 0.5), rgba(12, 15, 39, 0.9)), url('../../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.bannerMessage {
+    font-weight: 100;
+    text-align: start;
+    width: 100vw;
+    max-width: 800px;
+}
+
+.bannerMetricas {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.metricasAnos {
+    border-left: 5px solid #ffab11;
+    padding: 15px;
+    text-align: left;
+}
+
+.bannerForms {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 500px;
+}
+
+.bannerForms form {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerForms input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.bannerForms button {
+    background-color: #ffab11;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.bannerForms button:hover {
+    background-color: #45a049;
+}
+
+.divBanner h1,
+h3 {
+    font-weight: 300;
+    color: #fff;
+}
+
+.divBanner label {
+    color: #fff;
+}
+
+.divBanner strong {
+    text-decoration: underline;
+}
+
+.divAnalise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    gap: 20px;
+}
+
+.divAnalise hr {
+    width: 50%;
+    height: 2px;
+    background-color: #0c0f27;
+}
+
+.divAnalise text {
+    width: 70%;
+}
+
+.divEtapas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 50px;
+    gap: 20px;
+}
+
+.divLaudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    gap: 20px;
+    background-color: lightgray;
+    padding: 50px;
+}
+
+.boxConheca {
+    text-align: start;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boxConheca hr {
+    width: 100%;
+    height: 1px;
+    background-color: #0c0f27;
+    border: none;
+}
+
+.boxItensLaudo {
+    display: flex;
+    gap: 20px;
+    background-color: #0c0f27;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.boxItensLaudo>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divEscopo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+    background: linear-gradient(rgba(12, 15, 39, 0.5), rgba(12, 15, 39, 0.9)), url('../../assets/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.divEscopo hr {
+    width: 50vw;
+}
+
+.divEscopo>label {
+    width: 50vw;
+}
+
+.divEscopo>h1 {
+    width: 50vw;
+}
+
+.divEscopo>div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.divEficiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+    background: linear-gradient(rgba(12, 15, 39, 0.5), rgba(12, 15, 39, 0.9)), url('../../assets/banner5.png');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.divEficiencia hr {
+    width: 50vw;
+}
+
+.divEficiencia>label {
+    width: 50vw;
+}
+
+.divEficiencia>h1 {
+    width: 50vw;
+}
+
+.divEficiencia>div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.divCredibilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.divCredibilidade hr {
+    width: 50vw;
+}
+
+.divCredibilidade>label {
+    width: 50vw;
+}
+
+.divCredibilidade>h1 {
+    width: 50vw;
+}
+
+.divCredibilidade>div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.divMudanca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.divMudanca hr {
+    width: 50vw;
+}
+
+.divMudanca>label {
+    width: 50vw;
+}
+
+.divMudanca>h1 {
+    width: 50vw;
+}
+
+.divMudanca>div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.divServicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+    background: linear-gradient(rgba(12, 15, 39, 0.5), rgba(12, 15, 39, 0.9)), url('../../assets/banner3.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    color: white;
+}
+
+.divServicos>div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+/*Generico*/
+.center {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    text-align: center;
+    background-color: #ffab11;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Media query para tablets e telas pequenas */
+@media (max-width: 1200px) {
+    .divBanner {
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+    }
+
+    .bannerMessage {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .bannerMetricas {
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .metricasAnos {
+        border-left: 5px solid #ffab11;
+        text-align: center;
+    }
+
+    .bannerForms {
+        max-width: 90%;
+    }
+
+    .bannerForms input,
+    .bannerForms button {
+        padding: 10px;
+    }
+}
+
+/* Responsividade para telas maiores ou iguais a 1100px */
+@media (max-width: 1100px) {
+
+    .divEtapas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .group {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+/* Para telas menores */
+
+@media (max-width: 768px) {
+    .divAnalise {
+        margin: 20px;
+    }
+
+    .divAnalise h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .divAnalise text {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .divAnalise hr {
+        width: 80%;
+    }
+
+    .divEtapas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+    .divBanner {
+        padding: 15px;
+    }
+
+    .divBanner h1 {
+        font-size: 20pt;
+    }
+
+    .bannerMessage {
+        max-width: 100%;
+    }
+
+    .bannerForms {
+        width: 100%;
+    }
+
+    .bannerForms form {
+        gap: 8px;
+    }
+
+    .bannerForms input,
+    .bannerForms button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .bannerMetricas {
+        display: flex;
+        flex-wrap: wrap; /* Permite quebrar os itens para a próxima linha */
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .bannerMetricas > div {
+        flex: 0 0 48%; /* Ocupa 48% da largura da linha para cada item, deixando 2 itens por linha */
+        box-sizing: border-box; /* Garante que o padding e borda não ultrapassem os 48% */
+    }
+
+    .metricasAnos {
+        text-align: center;
+        border-left: none;
+    }
+}
+@media (max-width: 480px) {
+    .divBanner {
+        padding: 15px;
+    }
+
+    .divBanner h1 {
+        font-size: 20pt;
+    }
+
+    .bannerMessage {
+        max-width: 100%;
+    }
+
+    .bannerForms {
+        width: 100%;
+    }
+
+    .bannerForms form {
+        gap: 8px;
+    }
+
+    .bannerForms input,
+    .bannerForms button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .bannerMetricas {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .metricasAnos {
+        text-align: center;
+        border-left: none;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1600px) {
+    .divEficiencia > hr,
+    .divEficiencia > label,
+    .divEficiencia > h1 {
+        width: 80vw;
+    }
+
+    .divEficiencia > div {/* Empilha os itens em telas menores */
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1100px) {
+    .divEficiencia > hr,
+    .divEficiencia > label,
+    .divEficiencia > h1 {
+        width: 80vw;
+    }
+
+    .divEficiencia > div {/* Empilha os itens em telas menores */
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    .divEficiencia > hr,
+    .divEficiencia > label,
+    .divEficiencia > h1 {
+        width: 90vw; /* Maior largura para telas muito pequenas */
+    }
+
+    .divEficiencia > div {
+        flex-direction: column; /* Empilha os itens em telas menores */
+        align-items: center;
+    }
+
+    .divEficiencia > div > div {
+        width: 100%;
+    }
+
+    .divEficiencia > text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 1600px) {
+    .divEscopo > hr,
+    .divEscopo > label,
+    .divEscopo > h1 {
+        width: 80vw; /* Menor largura para telas menores */
+    }
+
+    .divEscopo > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .divEscopo > text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw; /* Ajusta a largura do texto */
+        margin: 0; /* Centraliza o texto */
+    }
+}
+@media (max-width: 1100px) {
+    .divEscopo > hr,
+    .divEscopo > label,
+    .divEscopo > h1 {
+        width: 80vw; /* Menor largura para telas menores */
+    }
+
+    .divEscopo > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .divEscopo > text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw; /* Ajusta a largura do texto */
+        margin: 0; /* Centraliza o texto */
+    }
+}
+
+@media (max-width: 600px) {
+    .divEscopo > label,
+    .divEscopo > h1 {
+        width: 90vw; /* Maior largura para telas muito pequenas */
+    }
+
+    .divEscopo hr{
+        width: 90vw;
+        margin: 0;
+    }
+
+    .divEscopo > div {
+        flex-direction: column; /* Empilha os itens em telas menores */
+        align-items: center;
+        width: 100%;
+    }
+
+    .divEscopo > text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw;
+        margin: 0;
+    }
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1450px) {
+    .divLaudo {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .boxConheca {
+        width: 50%;
+        text-align: center;
+    }
+
+    .boxItensLaudo {
+        flex-direction: row;
+        width: 50%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .boxItensLaudo > div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .divLaudo {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .boxConheca {
+        width: 50%;
+        text-align: center;
+    }
+
+    .boxItensLaudo {
+        flex-direction: row;
+        width: 70%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .boxItensLaudo > div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .divLaudo {
+        padding: 0px;
+    }
+
+    .boxConheca {
+        width: 80%;
+    }
+
+    .boxItensLaudo {
+        flex-direction: row;
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .boxItensLaudo > div {
+        width: 100%;
+    }
+
+    .boxConheca h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+
+    .boxConheca label {
+        font-size: 1rem; /* Ajusta o tamanho da descrição */
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .divLaudo {
+        padding: 0px;
+    }
+
+    .boxConheca {
+        width: 80%;
+    }
+
+    .boxItensLaudo {
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .boxItensLaudo > div {
+        width: 100%;
+    }
+
+    .boxConheca h1 {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+
+    .boxConheca label {
+        font-size: 1rem; /* Ajusta o tamanho da descrição */
+    }
+
+    .button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .boxConheca h1 {
+        font-size: 1.2rem; /* Ajusta ainda mais o título */
+    }
+
+    .boxConheca label {
+        font-size: 0.9rem; /* Ajusta a descrição para telas muito pequenas */
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsividade para telas menores que 1100px */
+@media (max-width: 1400px) {
+    .divCredibilidade {
+        padding: 30px;
+    }
+
+    .divCredibilidade hr {
+        width: 70vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divCredibilidade > label,
+    .divCredibilidade > h1 {
+        width: 80vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divCredibilidade > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1100px) {
+    .divCredibilidade {
+        padding: 30px;
+    }
+
+    .divCredibilidade hr {
+        width: 70vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divCredibilidade > label,
+    .divCredibilidade > h1 {
+        width: 80vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divCredibilidade > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .divCredibilidade {
+        padding: 20px;
+    }
+
+    .divCredibilidade hr {
+        width: 80vw; /* Ajuste da largura para telas pequenas */
+    }
+
+    .divCredibilidade > label,
+    .divCredibilidade > h1 {
+        width: 90vw; /* Ajuste da largura para telas menores */
+    }
+
+    .divCredibilidade > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+        width: 90vw;
+    }
+
+    .divCredibilidade text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw;
+    }
+}
+
+/* Responsividade para telas muito pequenas (máximo 480px) */
+@media (max-width: 480px) {
+    .divCredibilidade {
+        padding: 15px;
+    }
+
+    .divCredibilidade hr {
+        width: 90vw; /* Ajuste da largura para telas muito pequenas */
+    }
+
+    .divCredibilidade > label,
+    .divCredibilidade > h1 {
+        width: 95vw; /* Usa a maior largura disponível */
+    }
+
+    .divCredibilidade > div {
+        gap: 8px;
+    }
+
+    .divCredibilidade text {
+        font-size: 12px; /* Reduz o tamanho da fonte ainda mais para telas muito pequenas */
+    }
+}
+
+/* Responsividade para telas menores que 1100px */
+@media (max-width: 1600px) {
+    .divServicos {
+        padding: 30px;
+    }
+
+    .divServicos > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .divServicos > h1,
+    .divServicos > label {
+        width: 80vw; /* Ajuste da largura para telas menores */
+    }
+}
+
+@media (max-width: 1100px) {
+    .divServicos {
+        padding: 30px;
+    }
+
+    .divServicos > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .divServicos > h1,
+    .divServicos > label {
+        width: 80vw; /* Ajuste da largura para telas menores */
+    }
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .divServicos {
+        padding: 20px;
+    }
+
+    .divServicos > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .divServicos > h1,
+    .divServicos > label {
+        width: 90vw; /* Ajuste ainda maior para telas pequenas */
+    }
+
+    .divServicos text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw;
+    }
+}
+
+/* Responsividade para telas muito pequenas (máximo 480px) */
+@media (max-width: 480px) {
+    .divServicos {
+        padding: 15px;
+    }
+
+    .divServicos > h1,
+    .divServicos > label {
+        width: 95vw; /* Utiliza praticamente toda a largura da tela */
+    }
+
+    .divServicos > div {
+        gap: 8px;
+    }
+
+    .divServicos text {
+        font-size: 12px; /* Reduz a fonte para uma tela muito pequena */
+    }
+}
+
+/* Responsividade para telas menores que 1100px */
+@media (max-width: 1400px) {
+    .divMudanca {
+        padding: 30px;
+    }
+
+    .divMudanca hr {
+        width: 70vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divMudanca > label,
+    .divMudanca > h1 {
+        width: 80vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divMudanca > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 1100px) {
+    .divMudanca {
+        padding: 30px;
+    }
+
+    .divMudanca hr {
+        width: 70vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divMudanca > label,
+    .divMudanca > h1 {
+        width: 80vw; /* Ajuste da largura para telas médias */
+    }
+
+    .divMudanca > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+    .divMudanca {
+        padding: 20px;
+    }
+
+    .divMudanca hr {
+        width: 80vw; /* Ajuste da largura para telas pequenas */
+    }
+
+    .divMudanca > label,
+    .divMudanca > h1 {
+        width: 90vw; /* Ajuste da largura para telas menores */
+    }
+
+    .divMudanca > div {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+        width: 90vw;
+    }
+
+    .divMudanca text {
+        font-size: 14px; /* Reduz o tamanho da fonte em telas pequenas */
+        width: 90vw;
+    }
+}
+
+/* Responsividade para telas muito pequenas (máximo 480px) */
+@media (max-width: 480px) {
+    .divMudanca {
+        padding: 15px;
+    }
+
+    .divMudanca hr {
+        width: 90vw; /* Ajuste da largura para telas muito pequenas */
+    }
+
+    .divMudanca > label,
+    .divMudanca > h1 {
+        width: 95vw; /* Usa a maior largura disponível */
+    }
+
+    .divMudanca > div {
+        gap: 8px;
+    }
+
+    .divMudanca text {
+        font-size: 12px; /* Reduz o tamanho da fonte ainda mais para telas muito pequenas */
+    }
+}
