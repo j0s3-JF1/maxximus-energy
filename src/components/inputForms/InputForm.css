@@ -1,7 +1,39 @@
-input {
+.inputForm {
+    position: relative;
     width: 100%;
-    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputForm label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.inputForm input {
+    width: 100%;
+    padding: 12px 12px 12px 12px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background: transparent;
+    color: #fff;
+}
+
+.inputForm input:focus {
+    outline: none;
+}
+
+.inputForm input:focus + label,
+.inputForm input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 12px;
+    font-size: 12px;
+    color: #ffab11; /* Altere a cor se necessário */
 }

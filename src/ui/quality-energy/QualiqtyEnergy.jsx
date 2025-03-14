@@ -408,7 +408,6 @@ function QualityEnergy() {
                             value={formData.mensagem}
                             onChange={handleChange}
                         />
-                        <br />
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
