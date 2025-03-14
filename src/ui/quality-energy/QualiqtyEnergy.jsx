@@ -57,6 +57,7 @@ import nr12 from '../../assets/nr12.png';
 import condominio from '../../assets/condominio.jpg';
 import carregadorCarroEletrico from '../../assets/carregadorCarroEletrico.jpg';
 import VoltarTopo from '../../components/voltarTopo/VoltarTopo.jsx';
+import Title from '../../components/title/Title.jsx';
 
 function QualityEnergy() {
 
@@ -416,8 +417,7 @@ function QualityEnergy() {
                 <Carousel />
             </div>
             <div id="sobre-analise" className='divAnalise'>
-                <h1>Análise Energética Completa em 4 Etapas</h1>
-                <hr />
+                <Title titulo={"Análise Energética Completa em 4 Etapas"} corFundo={"#0c0f27"}/>
                 <text>
                     Aplicamos um processo ágil e eficiente para detectar falhas e identificar melhorias na performance elétrica da sua empresa desde o primeiro contato.
                     Em apenas 4 etapas, entregamos uma solução sob medida para otimizar a eficiência e garantir a proteção dos seus equipamentos.
@@ -445,8 +445,7 @@ function QualityEnergy() {
                 </div>
             </div>
             <div id="eficiencia-energetica" className='divEficiencia'>
-                <h1>Maximizando a Eficiência Energética: Soluções Sustentáveis para o Futuro</h1>
-                <hr />
+                <Title titulo={"Maximizando a Eficiência Energética: Soluções Sustentáveis para o Futuro"} corFundo={"#fff"}/>
                 <label>
                     A eficiência energética visa reduzir o consumo e os custos de energia, promovendo práticas sustentáveis e inovadoras.
                     Ao adotar tecnologias inteligentes e energias renováveis, é possível otimizar recursos,
@@ -504,8 +503,7 @@ function QualityEnergy() {
             </div>
             <div id="laudo-eletrico" className='divLaudo'>
                 <div className='boxConheca'>
-                    <h1>Conheça nosso Laudo Elétrico</h1>
-                    <hr />
+                    <Title titulo={"Conheça nosso Laudo Elétrico"} corFundo={"#0c0f27"}/>
                     <label>
                         Nosso laudo técnico elétrico oferece uma análise minuciosa da sua rede,
                         detectando falhas críticas e apontando oportunidades de melhoria.
@@ -526,8 +524,7 @@ function QualityEnergy() {
                 </div>
             </div>
             <div id="escopo" className='divEscopo'>
-                <h1>Serviços oferecidos pela nossa Análise de Qualidade de Energia para sua empresa</h1>
-                <hr />
+                <Title titulo={"Serviços oferecidos pela nossa Análise de Qualidade de Energia para sua empresa"} corFundo={"#fff"}/>
                 <label>
                     Nossa análise abrange todos os aspectos da sua rede elétrica, desde a identificação de falhas críticas até a otimização do consumo de energia.
                     Oferecemos uma solução completa para melhorar a eficiência e proteger seus equipamentos contra danos.
@@ -583,8 +580,7 @@ function QualityEnergy() {
                 </div>
             </div>
             <div className='divCredibilidade'>
-                <h1>Por que optar pela Análise de Energia da MAXXIMUS</h1>
-                <hr />
+                <Title titulo={"Por que optar pela Análise de Energia da MAXXIMUS"} corFundo={"#0c0f27"}/>
                 <label>
                     Empresas de todos os tamanhos podem aproveitar os benefícios da nossa Análise de Energia. Com tecnologia avançada e em conformidade com as normas nacionais,
                     oferecemos a solução ideal para atender às suas necessidades, seja qual for o porte ou segmento. Nosso serviço é preciso, confiável e personalizado para diferentes tipos de negócios.
@@ -643,7 +639,7 @@ function QualityEnergy() {
                 </div>
             </div>
             <div id="servicos" className='divServicos'>
-                <h1>Serviços Especializados em Equipamentos Industriais</h1>
+                <Title titulo={"Serviços Especializados em Equipamentos Industriais"} corFundo={"#fff"}/>
                 <label>Realizamos serviços de manutenção preditiva, preventiva e corretiva com reparos especializados para os seguintes equipamentos:</label>
                 {
                     servicosData.length <= 5 ? (
@@ -687,8 +683,7 @@ function QualityEnergy() {
                 }
             </div>
             <div className='divMudanca'>
-                <h1>Transforme agora a realidade da sua empresa com nossa Análise Energética</h1>
-                <hr />
+                <Title titulo={"Transforme agora a realidade da sua empresa com nossa Análise Energética"} corFundo={"#0c0f27"}/>
                 <label>
                     Nossa análise melhora diretamente a operação da sua empresa, ajudando a reduzir custos e aumentando a segurança de forma significativa.
                     Com a Análise de Qualidade de Energia da <strong>MAXXIMUS</strong>, você assegura:
