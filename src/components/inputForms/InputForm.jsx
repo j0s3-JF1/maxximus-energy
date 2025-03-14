@@ -3,14 +3,17 @@ import './InputForm.css';
 function InputForm({ titulo, placeholder, name, value, onChange }) {
     return (
         <>
-            <label>{titulo}</label>
-            <input
-                type="text"
-                placeholder={placeholder}
-                name={name}
-                value={value}
-                onChange={onChange}
-            />
+            <div className='inputForm'>
+                <input
+                    type="text"
+                    id={name}
+                    placeholder={""}
+                    name={name}
+                    value={value}
+                    onChange={onChange}
+                />
+                <label htmlFor={name}>{titulo}</label>
+            </div>
         </>
     );
 }
